@@ -19,8 +19,10 @@ public class SantaolgaDevopsDemoApplication {
 	      return String.format("Hello There!!!,welcome to my website");
 	    }
 	//b1 branch code changes
-	@GetMapping("/inbox")//y1 changes
+	@GetMapping("/inbox")//y1 + x1 changes
 	    public String inbox() {
 	      return String.format("All your emails are going to be listed here");
 }
+
+
 }
